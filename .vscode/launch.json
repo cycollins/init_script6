@@ -1,0 +1,131 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug (simplest configuration)",
+            "program": "${workspaceFolder}/reset_qt.sh",
+            "cwd": "/Users/iBrain/dev2",
+            "pathBash": "/usr/local/bin/bash5",
+            "pathBashdb": "/usr/local/bin/bashdb",
+            "pathBashdbLib": "/usr/local/share/bashdb"
+        },
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug 6.4.1",
+            "args": [ "-b", "6.4.1", "-m", "qt6", "-s", "https://code.qt.io/qt/qt5.git", "-d", "qt6" ],
+            "program": "${workspaceFolder}/reset_qt.sh",
+            "cwd": "/Users/iBrain/dev2",
+            "pathBash": "/usr/local/bin/bash5",
+            "pathBashdb": "/usr/local/bin/bashdb",
+            "pathBashdbLib": "/usr/local/share/bashdb"
+        },
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug 6.2.6",
+            "args": [ "-b", "tqtc/lts-6.2.6", "-m", "tqtc-qt6", "-d", "tqtc-qt6" ],
+            "program": "${workspaceFolder}/reset_qt.sh",
+            "cwd": "/Users/iBrain/dev2",
+            "pathBash": "/usr/local/bin/bash5",
+            "pathBashdb": "/usr/local/bin/bashdb",
+            "pathBashdbLib": "/usr/local/share/bashdb"
+        },
+
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.9",
+        //     "args": [ "-b", "tqtc/lts-5.15.9"],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.9 (skip)",
+        //     "args": [ "-b", "tqtc/lts-5.15.9", "-k" ],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15 LTS",
+        //     "args": [ "-b", "tqtc/lts-5.15", "-e", "-lts" ],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.10",
+        //     "args": [ "-b", "tqtc/lts-5.15.10"],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.10 (skip)",
+        //     "args": [ "-b", "tqtc/lts-5.15.10", "-k" ],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.10 (local only)",
+        //     "args": [ "-b", "tqtc/lts-5.15.10", "-l" ],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.10 (new only)",
+        //     "args": [ "-b", "tqtc/lts-5.15.10", "-n" ],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+        // {
+        //     "type": "bashdb",
+        //     "request": "launch",
+        //     "name": "Bash-Debug 5.15.10 (local only, new only)",
+        //     "args": [ "-b", "tqtc/lts-5.15.10", "-l", "-n" ],
+        //     "program": "${workspaceFolder}/reset_qt.sh",
+        //     "cwd": "/Users/iBrain/dev2",
+        //     "pathBash": "/usr/local/bin/bash5",
+        //     "pathBashdb": "/usr/local/bin/bashdb",
+        //     "pathBashdbLib": "/usr/local/share/bashdb"
+        // },
+
+
+    ]
+}
